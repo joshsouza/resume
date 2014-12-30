@@ -32,7 +32,7 @@
 <div id="container">
 
 	<div class="header group">
-		<h1>Josh Souza <span>Senior Developer at ViaWest</span></h1>
+		<h1>Josh Souza <span>Senior Developer<br> at Pearson Education</span></h1>
 	</div><!-- /header -->
 	
 	<div class="tagline">
@@ -44,10 +44,11 @@
 		<h2 class="employment">Employment</h2>
 		<h3>Current</h3>
 		<ul>
-			<li>Senior Developer at ViaWest</li>
+			<li>Senior Developer at Pearson Education</li>
 		</ul>
 		<h3>Past</h3>
 		<ul class="past">
+			<li>Senior Developer at ViaWest</li>
 			<li>Solutions Engineer at ViaWest</li>
 			<li>IT technician at WizWare Technologies</li>
 			<li>IT technician at J&L Computers</li>
@@ -58,11 +59,27 @@
 		<h2 class="experience">Experience</h2>
 		<ol>
 			<li>
+				<img class="companyLogo" src="img/pearson.png" />
+				<h4>Senior Developer</h4>
+				<h5>Pearson Education - (Online learning and textbook publishing)</h5>
+				<span>June 2014 - Present (<span id="sd_prs_time"></span>)</span>
+				<script type="text/javascript">updateTimeframe('sd_prs_time','2014/06/15');</script>
+				<p>Supporting online publishing efforts through maintenance and feature improvements to automated build, test, and release tools. Code review and workload analysis for development teams. (Puppet, Ruby, Python, Java, HTML/Javascript, and various other languages)</p>
+				<p>Achievements:
+					<ul class="achievementList">
+						<li>Retrofitted several in-house tools to use community available libraries</li>
+						<li>Analysis and efforts at reducing development team server footprint, resulting in significant monthly savings</li>
+						<li>Improved Puppet tooling, workflow, and modules to streamline system builds</li>
+						<li>Implemented Packer system builds to improve release consistency across cloud providers</li>
+					</ul>
+				</p>
+			</li>
+			<li>
 				<img class="companyLogo" src="img/vw.png" />
 				<h4>Senior Developer</h4>
 				<h5>ViaWest - (Hosting, Colocation, Cloud, and Managed Services industry)</h5>
-				<span>September 2009 - Present (<span id="sd_vw_time"></span>)</span>
-				<script type="text/javascript">updateTimeframe('sd_vw_time','2009/09/01');</script>
+				<span>September 2009 - June 2014 (<span id="sd_vw_time"></span>)</span>
+				<script type="text/javascript">updateTimeframe('sd_vw_time','2009/09/01','2014/06/15');</script>
 				<p>Designing, implementing, and integrating over 60 software systems in HTML/Javascript, Java, Ruby, C#, and various other languages. Supporting both internally and externally facing user interfaces (HTML/Javascript).</p>
 				<p>Achievements:
 					<ul class="achievementList">
@@ -147,6 +164,9 @@
 				</ul>
 				<h5>Development related</h5>
 				<ul class="commaSeparated alphabetize">
+					<li>Puppet</li>
+					<li>Packer</li>
+					<li>Vagrant</li>
 					<li>Subversion</li>
 					<li>Git</li>
 					<li>Crucible/Fisheye</li>
