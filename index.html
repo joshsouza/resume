@@ -5,7 +5,7 @@
 
 	Photo props to: Chase Creative Photography: http://www.ccpfotos.com/
 		Used with permission of Christopher Chase
-	
+
 -->
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
@@ -13,10 +13,10 @@
 
 	<!-- Title -->
 	<title>Joshua Souza Resume</title>
-	
+
 	<!-- Meta tags -->
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-	
+
 	<!-- Stylesheets -->
 	<link rel="stylesheet" type="text/css" media="screen, projection" href="css/screen.css" />
 	<link rel="stylesheet" type="text/css" media="print" href="css/print.css" />
@@ -32,38 +32,55 @@
 <div id="container">
 
 	<div class="header group">
-		<h1>Josh Souza <span>Senior Developer<br> at Pearson Education</span></h1>
+		<h1>Josh Souza <span>Senior Developer<br> at ProKarma</span></h1>
 	</div><!-- /header -->
-	
+
 	<div class="tagline">
 		<p>Software and web development keeps modern businesses in motion in today's rapidly changing technology world. I develop code in a variety of languages with an attention to detail that produces elegant code, and supports both short-term needs and long-term goals.
-		</p>		
+		</p>
 	</div><!-- /tagline -->
 
 	<div class="section group">
 		<h2 class="employment">Employment</h2>
 		<h3>Current</h3>
 		<ul>
-			<li>Senior Developer at Pearson Education</li>
+			<li>DevOps Developer at ProKarma</li>
 		</ul>
 		<h3>Past</h3>
 		<ul class="past">
+			<li>Senior Developer at Pearson Education</li>
 			<li>Senior Developer at ViaWest</li>
 			<li>Solutions Engineer at ViaWest</li>
 			<li>IT technician at WizWare Technologies</li>
 			<li>IT technician at J&L Computers</li>
 		</ul>
 	</div><!-- /section-employment -->
-	
+
 	<div class="section group">
 		<h2 class="experience">Experience</h2>
 		<ol>
+			<li>
+				<img class="companyLogo" src="img/prokarma.png" />
+				<h4>DevOps Developer</h4>
+				<h5>ProKarma - (Technology consulting, DevOps center of excellence)</h5>
+				<span>December 2015 - Present (<span id="sd_prk_time"></span>)</span>
+				<script type="text/javascript">updateTimeframe('sd_prk_time','2015/12/01');</script>
+				<p>Implementing and teaching DevOps and CICD best practices for various (often large) companies, enabling development teams to automate the build, release, and scaling of their applications on a cloud scale.</p>
+				<p>Achievements:
+					<ul class="achievementList">
+						<li>Improved in-house best practices for Puppet module development coding standards</li>
+						<li>Provided PoCs and implemented full CICD stack tooling for deploying customer applications</li>
+						<li>Created Puppet module for 'StageCoach' (on the Forge)</li>
+						<li>Created 'generator-puppetskel' to share best-practice module scaffolding</li>
+					</ul>
+				</p>
+			</li>
 			<li>
 				<img class="companyLogo" src="img/pearson.png" />
 				<h4>Senior Developer</h4>
 				<h5>Pearson Education - (Online learning and textbook publishing)</h5>
 				<span>June 2014 - Present (<span id="sd_prs_time"></span>)</span>
-				<script type="text/javascript">updateTimeframe('sd_prs_time','2014/06/15');</script>
+				<script type="text/javascript">updateTimeframe('sd_prs_time','2014/06/15','2015/11/27');</script>
 				<p>Supporting online publishing efforts through maintenance and feature improvements to automated build, test, and release tools. Code review and workload analysis for development teams. (Puppet, Ruby, Python, Java, HTML/Javascript, and various other languages)</p>
 				<p>Achievements:
 					<ul class="achievementList">
@@ -71,6 +88,7 @@
 						<li>Analysis and efforts at reducing development team server footprint, resulting in significant monthly savings</li>
 						<li>Improved Puppet tooling, workflow, and modules to streamline system builds</li>
 						<li>Implemented Packer system builds to improve release consistency across cloud providers</li>
+						<li>Implemented Roles/Profiles design capable of supporting hundreds of distinct teams' needs</li>
 					</ul>
 				</p>
 			</li>
@@ -125,7 +143,9 @@
 					<ul class="commaSeparated alphabetize">
 						<li>Coldfusion</li>
 						<li>HTML(5)</li>
-						<li class="nowrap">Javascript [ExtJS, Sencha Touch, JQuery]</li>
+						<li class="nowrap">Javascript [ExtJS,
+Sencha Touch,
+ JQuery]</li>
 						<li>Ruby</li>
 						<li>C#</li>
 						<li>C++</li>
@@ -169,6 +189,7 @@
 					<li>Vagrant</li>
 					<li>Subversion</li>
 					<li>Git</li>
+					<li>Arduino</li>
 					<li>Crucible/Fisheye</li>
 					<li>Eclipse/Aptana</li>
 					<li>Maven</li>
@@ -187,6 +208,31 @@
 		</ol>
 	</div>
 	<div class="section group">
+		<h2 class="opensource">Open source contributions/projects</h2>
+		<ol>
+			<li>
+				<h4><a href="https://github.com/joshsouza/enviera">Enviera</a></h4>
+				<h5>Ruby Gem</h5>
+				<span>Tool for improving insight into Hiera variables within your environment. See your Hierarchy as it would be loaded for a given node, and all values available.</span>
+			</li>
+			<li>
+				<h4><a href="https://github.com/joshsouza/generator-puppetskel">PuppetSkel</a></h4>
+				<h5>Yeoman generator</h5>
+				<span>Easily scaffold new Puppet modules with a best-practice oriented testbed that provides a standard style for your module's structure, and complete examples of tests for both unit and acceptance (Beaker) tests on Windows or Linux.</span>
+			</li>
+			<li>
+				<h4><a href="https://github.com/joshsouza/puppet-stagecoach">Puppet module for StageCoach</a></h4>
+				<h5>Software deployment module</h5>
+				<span>Install and configure StageCoach to deploy your applications in a standardized and easy way.</span>
+			</li>
+			<li>
+				<h4><a href="https://github.com/JeffreyDeYoung/GhostPassword">Ghost Password</a></h4>
+				<h5>Hardware module for OTP and KeePass integration</h5>
+				<span>Arduino-based piece of hardware that allows you to configure a OTP code typed on a single button press, or use an Android phone to send KeePass passwords directly to your computer through its virtual keyboard functionality. (I designed the hardware and Arduino code)</span>
+			</li>
+		</ol>
+	</div>
+	<div class="section group">
 		<h2 class="education">Education</h2>
 		<ol>
 			<li>
@@ -201,18 +247,19 @@
 			</li>
 		</ol>
 	</div><!-- /section-education -->
-	
+
 	<div class="section group">
-		
+
 		<div class="interests">
 			<h3>Interests</h3>
 			<p>Software and Web development, Video Games, Technology, Roller Derby, Snowboarding</p>
 			<ul>
 				<li><a href="https://www.facebook.com/joshua.souza.98"><img src="img/icon-fb.png" alt="Facebook" /></a></li>
 				<li><a href="https://www.linkedin.com/in/joshsouzadev/"><img src="img/icon-linkedin.png" alt="LinkedIn" /></a></li>
+				<li><a href="https://github.com/joshsouza/"><img width=32 src="img/icon-github.png" alt="GitHub" /></a></li>
 			</ul>
 		</div>
-		
+
 		<div class="contact">
 			<h3>Contact Details</h3>
 			<div class="vcard"><!-- hello, microformats! -->
@@ -221,14 +268,14 @@
 				<p class="email"><a href="mailto:josh.souza@PureInsomnia.com" title="Shoot me an email">josh.souza@PureInsomnia.com</a></p>
 			</div>
 		</div>
-		
+
 	</div><!-- /section-interests/contact -->
-	
+
 	<div class="footer group">
 		<p>Think I might fit what you're looking for? I prefer talking face-to-face, as I think employment is a two-way relationship, and I think my employer (and co-workers) should like me as much as I like them.</p>
-		
+
 	</div>
-	
+
 </div><!-- /container -->
 <script type="text/javascript">
 

@@ -140,6 +140,12 @@ div.section h2.education {
 	margin-bottom:7px;
 }
 
+div.section h2.opensource {
+	background: url(../img/opensource.png) no-repeat;
+	padding-top: 13px;
+	margin-bottom:7px;
+}
+
 
 /* Unordered Lists - Employment */
 
@@ -290,10 +296,10 @@ div.footer p.design {
 /* self-clear floats */
 
 .group:after {
-	content: "."; 
-	display: block; 
-	height: 0; 
-	clear: both; 
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
 	visibility: hidden;
 }
 
